@@ -1,6 +1,9 @@
-# Machine Learning Engineer Nanodegree
 # Supervised Learning
 ## Project: Building a Student Intervention System
+
+###Exercise
+
+This project is part of Udacity Nanodegree Machine Learning program.
 
 ### Install
 
@@ -9,10 +12,15 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [Jupyter Notebook](http://ipython.org/notebook.html)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+To run the file `xgboost_implementation.py` its necessary to install **XGBoos**t algorithm:
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+`sudo pip install xgboost
+
+or through anaconda:
+
+`conda install -c msarahan py-xgboost`
 
 ### Code
 
